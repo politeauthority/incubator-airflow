@@ -4,7 +4,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=dev webpack --watch --colors --progress --debug --output-pathinfo --devtool eval-cheap-source-map --mode development",
     "prod": "NODE_ENV=production node --max_old_space_size=4096 ./node_modules/webpack/bin/webpack.js -p --colors --progress",
-    "build": "NODE_ENV=production webpack --colors --progress"
+    "build": "NODE_ENV=production webpack --colors --progress",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Apache",
   "license": "Apache-2.0",
@@ -50,6 +52,8 @@
     "datatables.net": "^1.10.19",
     "datatables.net-bs": "^1.10.19",
     "npm": "^6.1.0",
-    "nvd3": "^1.8.6"
-  }
+    "nvd3": "^1.8.6",
+    "snyk": "^1.230.5"
+  },
+  "snyk": true
 }
