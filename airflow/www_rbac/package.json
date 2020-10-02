@@ -47,8 +47,8 @@
     "bootstrap-toggle": "^2.2.2",
     "d3": "^3.4.4",
     "d3-tip": "^0.9.1",
-    "datatables.net": "^1.10.19",
-    "datatables.net-bs": "^1.10.19",
+    "datatables.net": "^1.10.22",
+    "datatables.net-bs": "^1.10.22",
     "npm": "^6.1.0",
     "nvd3": "^1.8.6"
   }
